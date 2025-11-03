@@ -1,0 +1,48 @@
+body {
+    background-color: darkred;
+}
+
+.outer-box {
+    width: 500px;
+    Height: 500px;
+    background-color: lightgoldenrodyellow;
+    border: 6px solid red;
+    border-radius: 10px;
+}
+
+.inner-box1 {
+    width: 100px;
+    height: 100px;
+    background-color: rebeccapurple;
+    border: 1px solid green;
+    border-radius: 8px;
+    margin: 20px auto;
+}
+
+.inner-box2 {
+    width: 150px;
+    height: 200px;
+    background-color: mediumpurple;
+    border: 3px solid green;
+    border-radius: 8px;
+    margin: 20px ;
+}
+
+.inner-box3 {
+    width: 150px;
+    height: 60px;
+    background-color: purple;
+    border: 3px solid green;
+    border-radius: 8px;
+    margin: 20px auto;
+}
+
+.bottom-box {
+    width: 150px;
+    height: 200px;
+    background-color:deeppink;
+    border: 3px solid blue;
+    border-radius: 8px;
+    margin: 15px;
+}
+
