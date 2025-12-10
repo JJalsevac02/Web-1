@@ -1,0 +1,77 @@
+body{
+    background-color: #fcfcfc;
+}
+
+/* Outer frame box */
+.outer-box{
+    width: 600px;
+    background-color: #3a8923;
+    border: 3px solid #ce3636;
+    margin: 20px auto;
+    padding: 30px;
+    text-align: center;
+    font-family: Georgia, serif;
+}
+
+/* Section Titles */
+.section-title {
+    font-size: 32px;
+    margin: 20px 0;
+    font-weight: bold;
+}
+
+/* --- Image Containers --- */
+
+/* 1 — Large Cropped Background  */
+.image-container-1 {
+    width: 450px;
+    height: 300px;
+    margin: 30px auto;
+    background-image: url("../image/Screenshot%202025-11-26%20at%202.50.jpg");
+    background-size: 135%;   /* ZOOM IN */
+    background-position: center;
+}
+/* 2 — Background scaled to 200px, and doubled */
+.image-container-2 {
+    width: 450px;
+    height: 300px;
+    margin: 30px auto;
+    background-image: url("../image/Screenshot%202025-11-26%20at%202.50.jpg");
+    background-size: 200px;
+    background-repeat: repeat;
+}
+
+/* 3 — small image centered, no repeat */
+.image-container-3 {
+    width: 450px;
+    height: 300px;
+    margin: 30px auto;
+    background-color: #dd99cf;
+    background-image: url("../image/Screenshot%202025-11-26%20at%202.50.jpg");
+    background-size: 158px;
+    background-repeat: no-repeat;
+    background-position: right;
+}
+
+/* 4 — first HTML <img> full width */
+.image-container-4 img {
+    width: 450px;
+    margin: 20px auto;
+    object-fit: fill;
+}
+
+/* 5 — Second HTML <img> with a blue bar on top */
+/* 5 — HTML image with blue bar */
+.image-container-5 {
+    width: 450px;
+    margin: 30px auto;
+    background-color: #1983c6;
+    padding-top: 20px;
+    box-sizing: border-box;  /* makes sure padding doesn’t push content out */
+}
+
+.image-container-5 img {
+    width: 100%;    /* stays inside container */
+    display: block;
+    box-sizing: border-box;  /* includes border in width */
+}
